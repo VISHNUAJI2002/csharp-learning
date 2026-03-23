@@ -13,7 +13,8 @@ namespace Collections.List
         {
             Console.WriteLine("List<T> vs Array\n");
 
-            // Array Ex            int[] array = new int[3] { 10, 20, 30 };
+            // Array Example
+            int[] array = new int[3] { 10, 20, 30 };
 
             Console.WriteLine("Array:");
             PrintArray(array);
@@ -34,7 +35,9 @@ namespace Collections.List
 
             Console.WriteLine("Resized Array:");
             PrintArray(resizedArray);
-            // List<T> Exampl
+
+
+            // List<T> Example
             List<int> list = new List<int> { 10, 20, 30 };
 
             Console.WriteLine("\nList<T>:");
@@ -49,6 +52,8 @@ namespace Collections.List
             Console.WriteLine($"Capacity after adding elements: {list.Capacity}");
             Console.WriteLine("List after adding elements:");
             PrintList(list);
+
+
             // Built-in features of List<T>
             Console.WriteLine("\nList<T> features:");
 
@@ -138,15 +143,6 @@ List<T>:
     Rich built-in methods (Add, Remove, Find, etc.)
     Easier to use in most applications
 
-Capacity vs Count:
-
-    Count     → number of elements in the list
-    Capacity  → size of internal array
-
-    When Capacity is exceeded:
-        → a larger array is allocated
-        → elements are copied to the new array
-
 When to use Array:
 
 - Size is known and fixed
@@ -164,10 +160,4 @@ Time Complexity:
 Access (Array/List) → O(1)
 Add (List)         → O(1) amortized
 Insert/Remove      → O(n)
-
-Note:
-
-List<T> internally uses an array.
-Resizing involves allocating a larger array and copying elements,
-which introduces occasional overhead.
 */
