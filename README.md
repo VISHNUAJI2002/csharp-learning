@@ -2,110 +2,77 @@
 
 A structured collection of small programs exploring **C# and .NET concepts**, created as part of my learning journey in software development.
 
-This repository focuses on understanding **how C# features work internally** through small, focused examples rather than large applications. Each program demonstrates a specific concept and is designed to make execution flow and behavior easier to observe.
+This repository focuses on understanding how core C# features behave through **small, focused, concept-driven examples** rather than large applications. Each example is designed to make execution flow, runtime behavior, and language features easier to observe and experiment with.
 
-The repository will continue to grow as new topics are explored.
+The goal of this repository is not to build a production application, but to develop a deeper understanding of the language through practical exploration.
 
 ---
 
 # Purpose of This Repository
 
-This project serves as both:
+This repository serves as:
 
-* a **personal learning log** while studying C# and .NET development
-* a **reference collection of concept-driven examples**
+- a personal learning log while studying C# and .NET
+- a reference collection of isolated concept-based examples
+- a space to experiment with language features and runtime behavior
 
-Instead of building a single large project, the repository emphasizes **small, isolated programs** that demonstrate specific language features and behaviors.
+Instead of combining everything into a single large project, the repository emphasizes:
 
-The examples typically focus on:
+- focused examples
+- readable execution flow
+- concept isolation
+- practical experimentation
+- understanding behavior through execution
 
-* execution flow
-* runtime behavior
-* practical usage of language features
-* edge cases and important details
+Many examples also include explanatory comments to make the reasoning and flow easier to follow.
 
-Although this repository is primarily part of my learning process, **anyone learning C# may also find the examples useful.**
+Although this repository is primarily part of my own learning process, it may also be useful to others learning C# fundamentals and intermediate concepts.
 
 ---
 
-# Current Progress
+# Topics Covered
 
-This repository is **actively evolving** and new topics will be added as the learning journey progresses.
+The repository currently contains examples related to:
 
-### Implemented So Far
+- Async / Await
+- Collections
+- LINQ
+- Exception Handling
 
-* **Async / Await** *(currently being explored and expanded)*
-
-### Upcoming Topics
-
-The following areas will be added gradually:
-
-* C# Basics
-* Object Oriented Programming
-* Collections
-* LINQ
-* Exception Handling
-* File Handling
-* Delegates & Events
-* Multithreading and Parallel Programming
-
-Additional .NET related concepts and experiments may also be included over time.
+Examples are organized by topic and grouped into small, self-contained programs.
 
 ---
 
 # Repository Structure
 
-The repository structure will expand as more topics are added.
+Example structure:
 
-Example layout:
-
-```
+```text
 csharp-learning
 │
 ├─ async-await
-│   ├─ basics
-│   ├─ concurrency
-│   └─ error-handling
+│   ├─ 01-basics
+│   ├─ 02-task-fundamentals
+│   ├─ 03-concurrency
+│   ├─ 04-error-handling
+│   └─ 05-cancellation   
 │
-├─ linq                (planned)
-├─ collections         (planned)
-├─ oop                 (planned)
-├─ exceptions          (planned)
-└─ multithreading      (planned)
-```
-
-Each folder contains **small, self-contained programs** focusing on a single concept.
-
----
-
-# How to Use This Repository
-
-If you are also learning C#, the examples can be explored in the following way:
-
-1. Open a topic folder.
-2. Read the comments explaining the concept.
-3. Run the example program.
-4. Modify the code and experiment with different scenarios.
-
-Understanding improves significantly when you **observe how the program behaves during execution.**
-
----
-
-# Project Status
-
-This repository is an **ongoing learning project** and is not intended to be a complete guide to C#.
-
-New topics, examples, and improvements will continue to be added as the learning journey progresses.
-
----
-
-# Contributions
-
-This repository is primarily maintained as a personal learning project.
-However, discussions, suggestions, or improvements related to C# concepts are always welcome.
-
----
-
-# License
-
-This repository is intended for **educational and learning purposes**.
+├─ collections
+│   ├─ list
+│   ├─ dictionary
+│   ├─ hashset
+│   └─ queue-stack
+│
+├─ linq
+│   ├─ Models
+│   ├─ FilteringAndProjection.cs
+│   ├─ SortingAndAggregation.cs
+│   ├─ QuantifierOperations.cs
+│   ├─ GroupingAndJoins.cs
+│   └─ StudentDataAnalysis.cs
+│
+└─ exception-handling
+    ├─ BasicExceptionHandling.cs
+    ├─ ExceptionPropagation.cs
+    ├─ CustomException.cs
+    └─ BestPractices.cs
